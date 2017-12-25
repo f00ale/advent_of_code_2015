@@ -4,3 +4,4 @@ project(AOC15)
 set(CMAKE_CXX_STANDARD 17)
 
 add_executable(p01 p01.cpp)
+add_executable(p02 p02.cpp)
