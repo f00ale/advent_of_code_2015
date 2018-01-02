@@ -53,7 +53,6 @@ int main() {
 	esc = true;
       }
     }
-    std::cout << tot << " " << dec << " " << enc << std::endl;
     ans1 = tot-dec;
     ans2 = enc-tot;
   }

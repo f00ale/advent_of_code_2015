@@ -115,7 +115,6 @@ int main() {
       gts.pop_front();
       bool ok = true;
       if(values.find(g.target) != values.end()) {
-	std::cout << "value for " << g.target << " already set!" << std::endl;
 	continue;
       }
       if(!g.reg1.empty() && values.find(g.reg1) == values.end()) ok = false;
